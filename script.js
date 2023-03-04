@@ -18,6 +18,15 @@ function showAge(){
 function showEmail(){
 	document.getElementById('showDetails').innerText = `${user.email}`
 }
+	
+function showPhone(){
+	document.getElementById('showDetails').innerText = `${user.phone}`
+}
+	
+function showGetUser(){
+	document.getElementById('fullname').innerText = "";
+	 getRadomUser()
+}
 
 
 getRadomUser();
