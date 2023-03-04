@@ -26,10 +26,8 @@ function showPhone(){
 function showGetUser(){
 	document.getElementById('showDetails').innerText = "";
 	 getRadomUser()
-	for(let i=1;i<user.length;i++){
-		document.getElementById('showChange_img').src = `${user.picture.medium}`
-	}
-	// document.getElementById('showChange_img').src = `${user.picture.medium`
+		let imageChange =	document.getElementById('showChange_img')
+	imageChange.setAttribute('src',`${user.picture.medium}`)
 	
 }
 
