@@ -4,7 +4,9 @@
 	color:red;
 	background:green;
 }
-h2{
+.div1{
+	display:grid;
 	color:red;
+}
 	
 }

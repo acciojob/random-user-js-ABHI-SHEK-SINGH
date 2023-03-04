@@ -24,8 +24,10 @@ function showPhone(){
 }
 	
 function showGetUser(){
-	document.getElementById('fullname').innerText = "";
+	document.getElementById('showDetails').innerText = "";
 	 getRadomUser()
+	// document.getElementById('showChange_img').src = `${user.picture.medium`
+	
 }
 
 
