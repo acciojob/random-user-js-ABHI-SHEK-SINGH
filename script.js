@@ -27,7 +27,7 @@ function showGetUser(){
 	document.getElementById('showDetails').innerText = "";
 	 getRadomUser()
 		let imageChange =	document.getElementById('showChange_img')
-	imageChange.setAttribute('src',`${user.picture.medium}`)
+	imageChange.setAttribute('src',`${user.picture.large}`)
 	
 }
 
